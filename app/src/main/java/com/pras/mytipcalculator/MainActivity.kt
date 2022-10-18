@@ -43,8 +43,13 @@ fun TipTimeScreen() {
             modifier = Modifier.align(Alignment.CenterHorizontally)
         )
         Spacer(Modifier.height(16.dp))
-        TextField(value = "", onValueChange = {})
+        EditNumberField()
     }
+}
+
+@Composable
+fun EditNumberField() {
+    TextField(value = "", onValueChange = {})
 }
 
 @Preview(showBackground = true)
