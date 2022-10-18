@@ -26,7 +26,7 @@ class TipUITests {
 //            .onNodeWithText("Tip (%)")
 //            .performTextInput("20")
         composeTestRule
-            .onNodeWithText("Tip Amount: $2.00")
+            .onNodeWithText("Tip Amount: $1.50")
             .assertExists()
     }
 }
